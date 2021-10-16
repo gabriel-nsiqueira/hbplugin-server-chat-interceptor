@@ -1,0 +1,27 @@
+{
+    "name": "hbplugin-server-chat-interceptor",
+    "description": "SkeldJS Hindenburg plugin to intercept Room.sendChat",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/gabriel-nsiqueira/hbplugin-server-chat-interceptor.git"
+    },
+    "license": "GPL-3.0-or-later",
+    "version": "1.0.0",
+    "packageManager": "yarn@3.0.0-rc.13",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "keywords": [
+        "among us",
+        "amongus",
+        "hindenburg plugin",
+        "chat interception",
+        "chat interceptor"
+    ],
+    "scripts": {
+        "build": "tsc -p ./"
+    },
+    "devDependencies": {
+        "@skeldjs/hindenburg": "link:../..",
+        "typescript": "^4.4.4"
+    }
+}
