@@ -38,8 +38,16 @@ class MyInterception {
 ## Compiling
 
 Clone the project
-`git clone https://github.com/gabriel-nsiqueira/hbplugin-server-chat-interceptor`
+```shell
+git clone https://github.com/gabriel-nsiqueira/hbplugin-server-chat-interceptor
+```
+
 Install dependencies
-`yarn install`
+```shell
+yarn install
+```
+
 Run the build script
-`yarn build`
+```shell
+yarn build
+```
